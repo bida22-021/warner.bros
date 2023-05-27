@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: o;
+    background-color:rgba(32, 33, 36);
+}
+
+.logo img{
+    width: 25%;
+    height: auto;
+    float: left;
+    position: absolute; top: -24pt; left: -100pt; 
+}
+
+header{
+    padding: 4.688em;
+    background: linear-gradient(180deg,rgb(214, 123, 123) , rgb(127, 120, 120),rgb(33, 33, 39) );
+    display: flex;
+    
+}
+
+h1{
+    position: absolute; top: 18pt; left: 85pt; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    border: 0.125em ;
+    background-color: red;
+}
+li{
+    float: right;
+    margin-top: -0.938em;
+}
+ li a{
+    font-family: Arial, Helvetica, sans-serif ;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 2.5em;
+    
+}
+li a:hover{
+    background: red ;
+    text-transform: uppercase;
+}
+h2{
+    color: white;
+    margin-left: 0.625em;
+    
+}
+h3{
+    color: white;
+    margin-left: 1.125em;
+    float: left;
+}
+div.gallery {
+    margin: 0.625em;
+    width: 21.875em;
+    float:left ;
+    border: 0.063em solid #fffafa;
+    margin-left: 1.125em;
+    
+  }
+    div.gallery:hover {
+      border: 0.063em solid #ee3737;
+    }
+   
+    div.desc {
+      padding: 0.625em;
+      text-align: center;
+      color: white;
+      font-size: 1.25em;
+      background: linear-gradient(180deg,rgb(214, 123, 123) , rgb(127, 120, 120),rgb(33, 33, 39) );
+      
+    }
+    div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+   
+     
+
+      .Element{
+        margin-bottom: 1rem;
+      }
+
+   .container{
+    height: 37.5em;
+    width: 25em;
+    margin: 6.25em auto;
+    
+   }
+   .container form {
+    height: 18.75em;
+    width: 25em;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg,rgb(214, 123, 123) , rgb(127, 120, 120),rgb(33, 33, 39) );
+    text-align: center;
+   }
+   input[type=submit] {
+    background-color:red;
+    color: white;
+    padding: 0.75em 0.938em;
+   border: none;
+    border-radius: 0.125em;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background: red ;
+    text-transform: uppercase;
+  }
+ .newsletter-form{
+  background: linear-gradient(180deg,rgb(214, 123, 123) , rgb(127, 120, 120),rgb(33, 33, 39) );
+  text-align: center;
+  padding: 2.5em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .newsletter-form h3{
+  text-transform: uppercase;
+  width: 100%;
+  color: white;
+  text-align: center;
+ }
+ .newsletter-form p{
+  padding: 0.625em 0;
+  font-size: 0.938em;
+  color: white;
+ }
+ .email-input{
+  width: 60%;
+  height: 1.25em;
+  padding: 0.625em;
+  text-align: center;
+  font-size: larger;
+ }
+ #divsocialmedia img{
+  padding: 50px;
+  font-size: 70px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+#divsocialmedia h3{
+  color: white;
+}
+#divsocialmedia :hover{
+  transform: scale(0.9);
+  box-shadow: 0 20px 45px -15px red;
+}
+
+footer{
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg,rgb(33, 33, 39) , rgb(127, 120, 120),rgb(214, 123, 123) );
+  padding: 10px;
+  color: white;
+  bottom: 0;
+}
+.foot nav ul{
+  text-decoration: none;
+}
