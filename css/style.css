@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: o;
     background-color:rgba(32, 33, 36);
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .logo img{
@@ -61,17 +63,19 @@ h3{
     margin-left: 1.125em;
     float: left;
 }
-div.gallery {
-    margin: 0.625em;
-    width: 21.875em;
-    float:left ;
-    border: 0.063em solid #fffafa;
-    margin-left: 1.125em;
-    
-  }
+
     div.gallery:hover {
       border: 0.063em solid #ee3737;
     }
+    div.gallery {
+      margin: 0.625em;
+      width: 70.875em;
+      float:left ;
+      border: 0.063em solid #fffafa;
+      
+      
+    }
+    
    
     div.desc {
       padding: 0.625em;
@@ -79,14 +83,29 @@ div.gallery {
       color: white;
       font-size: 1.25em;
       background: linear-gradient(180deg,rgb(214, 123, 123) , rgb(127, 120, 120),rgb(33, 33, 39) );
-      
+  
     }
-    div.gallery img {
+    .cards{
+        display: flex;
+        padding: 150px;
+        justify-content: space-between;
         width: 100%;
-        height: auto;
+        margin-left: -150px;
+        height: 400px;
+        margin-top: -170px;
+        margin-bottom: 0;
+          
+        
       }
-   
-     
+      .cards .gallery img{
+        width: 100%;
+        height: 85%;
+        margin: 0;
+      }
+      .cards .gallery{
+        padding: ;
+      }
+      
 
       .Element{
         margin-bottom: 1rem;
@@ -168,6 +187,7 @@ footer{
   padding: 10px;
   color: white;
   bottom: 0;
+  width: 100%;
 }
 .foot nav ul{
   text-decoration: none;
