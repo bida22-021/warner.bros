@@ -83,7 +83,6 @@ h3{
       color: white;
       font-size: 1.25em;
       background: linear-gradient(180deg,rgb(214, 123, 123) , rgb(127, 120, 120),rgb(33, 33, 39) );
-  
     }
     .cards{
         display: flex;
@@ -94,8 +93,6 @@ h3{
         height: 400px;
         margin-top: -170px;
         margin-bottom: 0;
-          
-        
       }
       .cards .gallery img{
         width: 100%;
@@ -106,7 +103,6 @@ h3{
         padding: ;
       }
       
-
       .Element{
         margin-bottom: 1rem;
       }
@@ -179,7 +175,6 @@ h3{
   transform: scale(0.9);
   box-shadow: 0 20px 45px -15px red;
 }
-
 footer{
   bottom: 0;
   left: 0;
@@ -191,4 +186,7 @@ footer{
 }
 .foot nav ul{
   text-decoration: none;
+}
+.section{
+  margin-bottom: 0;
 }
